@@ -26,7 +26,7 @@ export default function TabSelector({ activeType, onTabChange }: TabSelectorProp
             />
           )}
           <Github className="w-4 h-4 relative z-10" />
-          <span className="relative z-10">GitHub</span>
+          <span className="relative z-10">AI Repositories</span>
         </motion.button>
 
         <motion.button

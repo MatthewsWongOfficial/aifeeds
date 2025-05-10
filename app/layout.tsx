@@ -108,21 +108,6 @@ export default function RootLayout({
     <html lang="en" className={inter.variable}>
       <body className={`${inter.className} antialiased`}>
         <main>{children}</main>
-        
-        {/* Author attribution footer */}
-        <footer className="fixed bottom-0 left-0 w-full py-2 px-4 bg-black/40 backdrop-blur-md text-center text-xs text-white/70 border-t border-white/10 z-50">
-          <p>
-            Created by{" "}
-            <Link 
-              href="https://matthewswong.tech" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="font-medium text-white hover:text-purple-300 transition-colors"
-            >
-              Matthews Wong
-            </Link>
-          </p>
-        </footer>
       </body>
     </html>
   )
