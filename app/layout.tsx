@@ -14,8 +14,8 @@ const inter = Inter({
 // Define metadata for better SEO and social sharing
 export const metadata: Metadata = {
   title: {
-    template: "%s | AI Explorer by Matthews Wong",
-    default: "AI Explorer - Discover the Latest AI Models and Repositories"
+    template: "%s | AI Feeds by Matthews Wong",
+    default: "AI Feeds - Discover the Latest AI Models and Repositories"
   },
   description: "Explore AI repositories and models in a TikTok-style interface. Find trending GitHub repositories and cutting-edge Hugging Face models in one place.",
   keywords: ["AI", "artificial intelligence", "models", "repositories", "GitHub", "Hugging Face", "machine learning"],
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
   creator: "Matthews Wong",
   publisher: "Matthews Wong",
   generator: "Next.js",
-  applicationName: "AI Explorer",
+  applicationName: "AI Feeds",
   referrer: "origin-when-cross-origin",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://matthewswong.tech"),
+  metadataBase: new URL("https://aifeeds.matthewswong.tech"),
   alternates: {
     canonical: "/",
   },
@@ -52,10 +52,10 @@ export const metadata: Metadata = {
   // Web app manifest
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "AI Explorer - Discover the Latest AI Models and Repositories",
+    title: "AI Feeds - Discover the Latest AI Models and Repositories",
     description: "Explore AI repositories and models in a TikTok-style interface. Find trending GitHub repositories and cutting-edge Hugging Face models in one place.",
-    url: "https://matthewswong.tech",
-    siteName: "AI Explorer",
+    url: "https://aifeeds.matthewswong.tech",
+    siteName: "AI Feeds",
     locale: "en_US",
     type: "website",
     images: [
@@ -63,13 +63,13 @@ export const metadata: Metadata = {
         url: "/android-chrome-512x512.png",
         width: 512,
         height: 512,
-        alt: "AI Explorer Logo",
+        alt: "AI Feeds Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Explorer - Discover the Latest AI Models and Repositories",
+    title: "AI Feeds - Discover the Latest AI Models and Repositories",
     description: "Explore AI repositories and models in a TikTok-style interface. Find trending GitHub repositories and cutting-edge Hugging Face models in one place.",
     creator: "@matthewswong",
     images: ["/android-chrome-512x512.png"],
